@@ -40,25 +40,15 @@ Mac OS X.
 # POSSIBILITY OF SUCH DAMAGE.
 
 from .devices.gamepad.gamepad import GamePad
-from .devices.base import OtherDevice
 
 from .manager import DeviceManager
-from .utils import devices, get_gamepad, get_key, get_mouse
+from .utils import devices, get_gamepad
 
 __version__ = "0.6"
 
 __all__ = [
     "GamePad",
-    "Mouse",
-    "MightyMouse",
-    "Keyboard",
-    "LED",
-    "GamepadLED",
-    "SystemLED",
-    "OtherDevice",
     "DeviceManager",
     "devices",
     "get_gamepad",
-    "get_key",
-    "get_mouse",
 ]
